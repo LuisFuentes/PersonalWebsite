@@ -1,6 +1,6 @@
-from app import app, render_template
+from app import application, render_template
 
-@app.route('/')
+@application.route('/')
 def home():
     #return 'Hello, world!'
     #return render_template('home.html')

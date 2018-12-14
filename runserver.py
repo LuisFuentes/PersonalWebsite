@@ -1,3 +1,5 @@
-from app import app
-app.run(host='0.0.0.0')
-#app.run()
+from app import application
+
+if __name__ == '__main__':
+    #app.run(host='0.0.0.0')
+    application.run()
