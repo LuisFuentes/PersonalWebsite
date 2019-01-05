@@ -54,7 +54,7 @@ p.lead {
   font-size: 1.5rem;
 }
 
-.social-icons a, img {
+.social-icons a img {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
@@ -67,11 +67,11 @@ p.lead {
   margin-right: 1rem;
 }
 
-.social-icons a, img:last-child {
+.social-icons a img:last-child {
   margin-right: 0;
 }
 
-.social-icons a, img:hover {
+.social-icons a img:hover {
   background-color: #659DBD;
 }
 
